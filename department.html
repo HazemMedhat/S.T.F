@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="update.css">
+    <link rel="stylesheet" href=
+    "https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <script src="department.js" defer></script>
+
+    <title>S.T.F</title> 
+<body >  
+        <nav class="nav">
+            <a href="#" class="logo">Student Affairs</a>
+
+            <ul class="nav-links">
+                <li><a  href="home.html">Home</a></li>
+                <li><a  href="Add_student.html">Add Student</a></li>
+                <li><a  href="view.html">View</a></li>
+                <li><a  href="search.html">Search</a></li>
+                <li><a  href="profile_page.html">Profile Page</a></li>
+                <li><a class="active" href="department.html">Register Department</a></li>
+            </ul>
+
+            <i class="uil uil-search search-icon" id ="searchIcon"></i>
+            <div class ="search-box">
+            <i class="uil uil-search search-icon"></i>
+                <input type="text" placeholder="Search here">
+            </div>
+        </nav>
+    <div class="box">
+        <h2 style="text-align: center ;">Departments</h2> 
+        <form >
+            <label ><b>Name :</b></label>
+            <input type="text" placeholder="bla bla" required readonly>
+            <label ><b>ID :</b></label>
+            <input type="text" placeholder="444" required readonly>
+            <label ><b>GPA :</b></label>
+            <input type="number" placeholder="3.5" required readonly>
+            <label ><b>Level :</b></label> 
+            <input type="number" placeholder="1" required readonly>
+            <label for="departemnt"><b>  Available Departments :</b></label>
+            <input list ="1">
+            <datalist id="1">
+                <option>CS</option>
+                <option>IS</option>
+                <option>AI</option>
+                <option>IT</option>
+                <option>DS</option>
+                <option>General</option>
+            </datalist></p> 
+            <input class="submit" type="submit">
+        </form>
+    </div>
+    </body>
+
+</html>
