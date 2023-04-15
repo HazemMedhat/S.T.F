@@ -1,0 +1,73 @@
+body {
+    background-image: url('https://up6.cc/2023/04/168107968118171.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  .name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin: 0 10px;
+  }
+  
+  .navbar li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .navbar li a:hover {
+    color: #666;
+  }
+    
+  table {
+    margin: 50px auto;
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  table td,
+  table th {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  table th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  table tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  input[type="radio"] {
+    margin: 0 5px;
+  }
+  
+  .fa-edit {
+    color: #333;
+    transition: color 0.2s;
+  }
+
+  .fa-edit:hover {
+    color: #666;
+  }
+  
