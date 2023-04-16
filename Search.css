@@ -1,33 +1,82 @@
 h1{
-    text-align: center;
+  text-align: center;
 }
 
 body{
-    background-image: url("WhatsApp Image 2023-04-09 at 19.17.27.jpg");
-    background-size:cover;
-    background-attachment: fixed;
+  background-image: url("WhatsApp Image 2023-04-09 at 19.17.27.jpg");
+  background-size:cover;
+  background-attachment: fixed;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
   
-  li {
-    float: left;
-  }
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
   
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
+li a:hover {
+  background-color: #111;
+}
+
+
+.Table {
+  background-color:rgba(255,255,255,0.5);
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size:large;
+  font-family: sans-serif;
+  min-width: 400px;
+}
+
+.Table thead tr {
+  background-color:aquamarine ;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+
+.Table th , td {
+  padding: 12px 15px;
+}
+
+.Table tbody tr {
+  border-bottom: 1px solid #dddddd; 
+}
+
+.Table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+tr:hover {
+  background-color:#ddd;
+}
+
+input[type=text] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: aquamarine;
+  color:black;
+  text-align: center;
+}
+
+input[type=submit] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: aquamarine;
+}
