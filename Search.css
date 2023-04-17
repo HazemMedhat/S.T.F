@@ -1,82 +1,108 @@
 h1{
-  text-align: center;
+    text-align: center;
 }
 
-body{
-  background-image: url("WhatsApp Image 2023-04-09 at 19.17.27.jpg");
-  background-size:cover;
-  background-attachment: fixed;
+body {
+    background-color: #f7f7f7;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://up6.cc/2023/04/168107968118171.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+header {
+    background-color: #1c2331;
+    color: #ffffff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+nav {
+    margin: 0 20px;
+}
+        
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+        
+.navbar li {
+    margin: 0 10px;
+}
+        
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+}
+        
+section {
+    padding: 20px;
 }
 
-li {
-  float: left;
+.name {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 20px;
+    }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.5);
+    
+}
+    
+th {
+    background-color: #1c2331;
+    color: #ffffff;
+    text-align: left;
+    padding: 10px;
+}
+    
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+table tbody tr:hover {
+    background-color: #ddd;
 }
   
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-  
-li a:hover {
-  background-color: #111;
-}
-
-
-.Table {
-  background-color:rgba(255,255,255,0.5);
-  border-collapse: collapse;
-  margin: 25px 0;
-  font-size:large;
-  font-family: sans-serif;
-  min-width: 400px;
-}
-
-.Table thead tr {
-  background-color:aquamarine ;
-  color: white;
-  text-align: left;
-  font-weight: bold;
-}
-
-.Table th , td {
-  padding: 12px 15px;
-}
-
 .Table tbody tr {
-  border-bottom: 1px solid #dddddd; 
+    border-bottom: 1px solid #333; 
 }
 
-.Table tbody tr:last-of-type {
-  border-bottom: 2px solid #009879;
-}
-
-tr:hover {
-  background-color:#ddd;
+input{
+    text-align: center;
 }
 
 input[type=text] {
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  background-color: aquamarine;
-  color:black;
-  text-align: center;
+    text-align: center;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #1c2331;
+    color: #fff;
+} 
+  
+input[type=submit] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #1c2331;
+    color: #fff;
 }
 
-input[type=submit] {
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  background-color: aquamarine;
+button {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #1c2331;
+    color: #fff;
 }
