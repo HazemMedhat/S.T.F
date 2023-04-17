@@ -11,38 +11,32 @@
 
     <title>S.T.F</title> 
 <body >  
-        <nav class="nav">
-            <a href="#" class="logo">Student Affairs</a>
-
-            <ul class="nav-links">
-                <li><a  href="home.html">Home</a></li>
+    <header>
+        <p class="name">S.T.F</p>
+        <nav>
+            <ul class="navbar">
+                <li><a  href="Home.html">Home</a></li>
                 <li><a  href="Add_student.html">Add Student</a></li>
-                <li><a  href="view.html">View</a></li>
+                <li><a href="view.html">View</a></li>
                 <li><a  href="search.html">Search</a></li>
-                <li><a  href="profile_page.html">Profile Page</a></li>
-                <li><a class="active" href="department.html">Register Department</a></li>
+                <li><a  href="Edit.html">Edit</a></li>
             </ul>
-
-            <i class="uil uil-search search-icon" id ="searchIcon"></i>
-            <div class ="search-box">
-            <i class="uil uil-search search-icon"></i>
-                <input type="text" placeholder="Search here">
-            </div>
-        </nav>
+    </nav>
+    </header>
     <div class="box">
         <h2 style="text-align: center ;">Departments</h2> 
         <form >
             <label ><b>Name :</b></label>
-            <input type="text" placeholder="bla bla" required readonly>
+            <input type="text" placeholder="mariam" required readonly>
             <label ><b>ID :</b></label>
-            <input type="text" placeholder="444" required readonly>
+            <input type="text" placeholder="20210381" required readonly>
             <label ><b>GPA :</b></label>
-            <input type="number" placeholder="3.5" required readonly>
+            <input type="text" value= '3.5' id="myInput" required readonly>
             <label ><b>Level :</b></label> 
-            <input type="number" placeholder="1" required readonly>
+            <input type="number" placeholder="3" required readonly>
             <label for="departemnt"><b>  Available Departments :</b></label>
-            <input list ="1">
-            <datalist id="1">
+            <input list ="departemntList" id="departemnt">
+            <datalist id="departemntList">
                 <option>CS</option>
                 <option>IS</option>
                 <option>AI</option>
