@@ -6,7 +6,6 @@
 
     <title>View All Student </title>
     <link rel="stylesheet" href="view.css">
-    <script src="view.js"></script>
 </head>
 <body>
     <header>
@@ -23,113 +22,18 @@
             </ul>
     </nav>
     </header>
-<section>
-   
-        <table border="1" >
-            <thead>
-                <tr>
-                    <td>Student Name</td>
-                    <td>Status</td>
-                    <td> <center> ID </center></td>
-                    <td>Department</td>
-                    <td>Level</td>
-                    <td>GPA</td>
-                    <td>Change Status</td>
-                    <td>Edit</td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Student-1</td>
-                    <td>active</td>
-                    <td>202*****</td>
-                    <td> <center> --- </center></td>
-                    <td> <center> --- </center></td>
-                    <td> <center> --- </center></td>
-                    <td>
-                        <input type="radio" name="stat" id="stat1" value="inactive">
-                        <label for="stat1"> inactive</label> <br>
-                        <input type="radio" name="stat" id="stat2" value="active">
-                        <label for="stat2"> active</label> <br>
-                        <button class="apply" onclick="showConfirmMessage()">Apply</button>
-                        <td><a href="edit.html"><i class="fas fa-edit"></i></a></i></td>
-                    </td>
-                    
-                </tr>
-                <tr>
-                    <td>Student-2</td>
-                    <td>active</td>
-                    <td>202*****</td>
-                    <td> <center> --- </center></td>
-                    <td> <center> --- </center></td>
-                    <td> <center> --- </center></td>
-                    <td>
-                        <input type="radio" name="stat1" id="stat3" value="inactive">
-                        <label for="stat1"> inactive</label> <br>
-                        <input type="radio" name="stat1" id="stat4" value="active">
-                        <label for="stat2"> active</label> <br>
-                        <button class="apply" onclick="showConfirmMessage()">Apply</button>
-                        <td><a href="edit.html"><i class="fas fa-edit"></i></a></i></td>
-                    </td>
-                    
-                </tr>
-                <tr>
-                    <td>Student-3</td>
-                    <td>active</td>
-                    <td>202*****</td>
-                    <td> <center> --- </center></td>
-                    <td> <center> --- </center></td>
-                    <td> <center> --- </center></td>
-                    <td>
-                        <input type="radio" name="stat2" id="stat5" value="inactive">
-                        <label for="stat1"> inactive</label> <br>
-                        <input type="radio" name="stat2" id="stat6" value="active">
-                        <label for="stat2"> active</label> <br>
-                        <button class="apply" onclick="showConfirmMessage()">Apply</button>
-                        <td><a href="edit.html"><i class="fas fa-edit"></i></a></i></td>
-                    </td>
-                    
-                </tr>
-                <tr>
-                    <td>Student-4</td>
-                    <td>active</td>
-                    <td>202*****</td>
-                    <td> <center> --- </center></td>
-                    <td> <center> --- </center></td>
-                    <td> <center> --- </center></td>
-                    <td>
-                        <input type="radio" name="stat3" id="stat7" value="inactive">
-                        <label for="stat1"> inactive</label> <br>
-                        <input type="radio" name="stat3" id="stat8" value="active">
-                        <label for="stat2"> active</label> <br>
-                        <button class="apply" onclick="showConfirmMessage()">Apply</button>
-                        <td><a href="edit.html"><i class="fas fa-edit"></i></a></i></td>
-                    </td>
-                    
-                </tr>
-                <tr>
-                    <td>Student-5</td>
-                    <td>active</td>
-                    <td>202*****</td>
-                    <td> <center> --- </center></td>
-                    <td> <center> --- </center></td>
-                    <td> <center> --- </center></td>
-                    <td>
-                        <input type="radio" name="stat4" id="stat9" value="inactive">
-                        <label for="stat1"> inactive</label> <br>
-                        <input type="radio" name="stat4" id="stat10" value="active">
-                        <label for="stat2"> active</label> <br>
-                        <button class="apply" onclick="showConfirmMessage()">Apply</button>
-                        <td><a href="edit.html"><i class="fas fa-edit"></i></a></i></td>
-                    </td>
-                    
-                </tr>
-         
-               
-            </tbody>
-        </table>
-    </form>
-</section>
+
+    <div class="container">
+        <h3>Active Students</h3><br>
+        <button id="button1">Get Active Students</button>
+        <div id="activeTable"></div>
+        <hr>
+        <h3>Inactive Students</h3><br>
+        <button id="button2">Get Inactive Students</button>
+        <div id="inActiveTable"></div>
+    </div>
+    <script src="ViewAllSrudents.js"></script>
+    <script src="view.js"></script>
 </body>
+
 </html>
-    
