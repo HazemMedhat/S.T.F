@@ -9,28 +9,26 @@
     <link rel="stylesheet" href="add_student.css">
 </head>
 <body>
-<header>
-    <!-- <h2 class="site-name">Student affairs</h2> -->
-    <div class="navigation-bar">
-        <ul class="navigation-menu">
-            <li><a href="homepage.html">home Page</a> </li>
-            <li><a href="view.html">View </a></li>
-            <li><a href="department.html"> department</a></li>
-            <li><a href="search.html">search</a></li>
-            <li><a href="edit.html">Edit</a></li>
-           
-    </div>
-</header>
+    <header>
+        <p class="name">S.T.F</p>
+        <nav>
+            <ul class="navbar">
+                <li><a  href="Home.html">Home</a></li>
+                <li><a  href="Add_student.html">Add Student</a></li>
+                <li><a href="view.html">View</a></li>
+                <li><a  href="search.html">Search</a></li>
+                <li><a  href="Edit.html">edit</a></li>
+            </ul>
+    </nav>
+    </header>
     <div id="message" hidden></div>
     <div class="container">
-        <!-- <p class="address">Add new student</p> -->
         <form action="" target="_blank" id="form">
-            
+            <h2> Add New Student</h2>
                 <div>
                     <label for="name">FullName</label>
                     <input type="text" name="name" id="name" placeholder="Your Name.." required >
                 </div>
-
             
                 <div>
                     <label for="id">ID</label>
@@ -57,7 +55,7 @@
            
                 <div>
                     <label for="level">Level</label >
-                    <select name="level" id="level" required>
+                    <select class="select" name="level" id="level" required>
                         <option value="1" selected>Level 1</option>
                         <option value="2">Level 2</option>
                         <option value="3">Level 3</option>
@@ -73,11 +71,9 @@
                         <option value="AI">AI</option>
                         <option value="IT">IT</option>
                         <option value="DS">DS</option>
-                        <option value="Has no department">Has no department</option>
                     </select>
                 </div>
-           
-            
+        
                 <div>
                     <label for="status">Status</label>
                     <select name="status" id="status" required>
@@ -90,16 +86,15 @@
                     <input type="text" name="GPA" id="GPA" placeholder="GPA" pattern="^[0-3](\.[0-9])?|4(\.0)?$" required title="Please enter a valid GPA between 0 and 4">
                 </div>
            
-            
             <div class="form-line">
                 <label for="birth">BirthDate</label>
                 <input type="date" name="birthdate" id="birth" placeholder="BirthDate" required >
-            </div>
-            <div class="form-line">
+            </div><br>
+           
                 <input type="submit" value="submit">
-                <input type="reset" value="reset">
-            </div>
-            <br>
+                
+       
+            
 
         </form>
     </div>
