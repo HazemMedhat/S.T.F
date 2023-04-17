@@ -1,3 +1,14 @@
+function show_confirm(){
+    var r=confirm("Change Student Status");
+    if (r==true)
+      {
+      alert("Student status Changed Successfully!");
+      }
+    else
+      {
+      alert("changing Status canceld!");
+      }
+}
 
 const button1 = document.getElementById("button1")
 btn1.addEventListener('click' , ()=> {
