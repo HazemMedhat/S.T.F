@@ -1,0 +1,122 @@
+
+ 
+  body{
+    background-image:url("newImage-100 (2).png");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  header {
+    background-color: #1c2331;
+    color: #ffffff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  
+  .name {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 20px;
+  }
+  
+  nav {
+    margin: 0 20px;
+  }
+  
+  .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar li {
+    margin: 0 10px;
+  }
+  .navbar li :hover{
+    margin: 0 10px;
+    
+    font-weight: bold;
+  }
+  
+  .navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    
+  }
+  h2 {
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    /* line-height: 1.4; */
+    color: #333;
+    text-shadow: 1px 1px #ccc;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+  }
+  
+  form {
+    background-color:rgba(255,255,255,0.5);
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0 0 20px rgba(72, 94, 116, 0.7);
+    height: 700px;
+    width: 400px;
+}
+form > *
+{
+    padding: 0.7em;
+}
+/* form div {
+    margin-bottom: 5px;
+} */
+label{
+  font: 1em sans-serif;
+  grid-column: 1/4;
+}
+
+
+
+form input[type="text"], form input[type="email"], form input[type="data"], form select {
+    /* width: 300px; */
+    padding: 5px;
+    border-radius: 5px;
+    /* border: 1px solid gray; */
+    grid-column: 2/ 3;
+    box-sizing: border-box;
+    display:-moz-grid-line;
+
+  border: 1px solid #ccc;
+  margin: 0;
+  transition: 0.5s;
+}
+form input[type="submit"] {
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin-right: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #1c2331;
+    position:relative;
+    left: 38%;
+    font-size: large;
+
+
+}
+form input[type="submit"]:hover {
+  background-color: #33a499;
+  color: white;
+
+}
+
+
+
