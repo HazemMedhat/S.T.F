@@ -1,6 +1,5 @@
 
- 
-  body{
+body{
     background-image:url("newImage-100 (2).png");
     
     background-repeat: no-repeat;
@@ -49,7 +48,7 @@
     text-decoration: none;
     
   }
-  h2 {
+ p {
     font-family: Arial;
     font-size: 30px;
     font-weight: bold;
@@ -70,6 +69,9 @@
     box-shadow: 0 0 20px rgba(72, 94, 116, 0.7);
     height: 700px;
     width: 400px;
+    /* grid: gap 0.6em; */
+    grid-template-columns: min-content 1fr;
+    display: grid;
 }
 form > *
 {
@@ -80,20 +82,17 @@ form > *
 } */
 label{
   font: 1em sans-serif;
-  grid-column: 1/4;
+  grid-column: 1/2;
 }
 
 
 
 form input[type="text"], form input[type="email"], form input[type="data"], form select {
-    /* width: 300px; */
     padding: 5px;
     border-radius: 5px;
-    /* border: 1px solid gray; */
     grid-column: 2/ 3;
     box-sizing: border-box;
     display:-moz-grid-line;
-
   border: 1px solid #ccc;
   margin: 0;
   transition: 0.5s;
@@ -107,7 +106,7 @@ form input[type="submit"] {
     cursor: pointer;
     background-color: #1c2331;
     position:relative;
-    left: 38%;
+    right: 46%;
     font-size: large;
 
 
